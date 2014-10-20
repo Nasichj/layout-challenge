@@ -84,6 +84,15 @@ a:hover,
 a:focus {
 	color: #0000EE;
 }
+header a {
+
+	color:#55E;
+
+}
+header a:hover, 
+header a:focus {
+	color:#00E;
+}
 
 dt {
 	
@@ -123,7 +132,7 @@ nav li {
 		margin-bottom: 20px;
 		margin-right: 20px;
 	}
-	header {
+	.header {
 		position: relative;
 		background-color: #FA5A0F;
 		margin: none;
