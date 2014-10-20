@@ -22,13 +22,7 @@ header {
 	color: #FFFFFF;
 	padding: 1em;
 }
-header p {
-	
-	font-size: 120%;
-	color: #EEEEEE;
-	margin: 0;
 
-}
 
 h1,h2,h3 {
 	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Sans-serif;
@@ -117,21 +111,28 @@ nav li {
 	display: inline-block;
 	margin-right: 1em;
 }
+.container-fluid {
+		margin-top: 0;
+		margin-bottom: 0;
+
+	}
 @media (min-width: 992px){
 	.motto{
 		display: inline;
 	}
 
+	header p {
+	
+	font-size: 120%;
+	color: #EEEEEE;
+	margin: 0;
+
+	}
 	body {
 		font-size: 18px;
 		background-image: url(../img/background.jpg);
 	}
-	main {
-		margin-left: 30%;
-		margin-top: 20px;
-		margin-bottom: 20px;
-		margin-right: 20px;
-	}
+	
 	.header {
 		position: relative;
 		background-color: #FA5A0F;
@@ -144,6 +145,8 @@ nav li {
 	}
 	.container-fluid {
 		margin-left: 30%;
+		margin-right: 20px;
+		margin-top: 20px;
 		margin-bottom: 20px;
 
 
