@@ -10,7 +10,7 @@ body {
 }
 	
 main {
-	
+	margin: 0;
 	background-image: url(../img/ricepaper_v3.png);
 	opacity: 0.9;
 }
@@ -22,7 +22,9 @@ header {
 	color: #FFFFFF;
 	padding: 1em;
 }
-
+header p{
+	display: none;
+}
 
 h1,h2,h3 {
 	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Sans-serif;
@@ -83,6 +85,7 @@ header a {
 	color:#55E;
 
 }
+
 header a:hover, 
 header a:focus {
 	color:#00E;
@@ -132,6 +135,12 @@ nav li {
 		font-size: 18px;
 		background-image: url(../img/background.jpg);
 	}
+	main {
+		margin-left: 30%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-right: 20px;
+	}
 	
 	.header {
 		position: relative;
@@ -148,7 +157,5 @@ nav li {
 		margin-right: 20px;
 		margin-top: 20px;
 		margin-bottom: 20px;
-
-
 	}
 }
